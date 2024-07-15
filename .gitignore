@@ -1,0 +1,45 @@
+# Archivos y carpetas específicos de .NET Core
+bin/
+obj/
+*.user
+*.userosscache
+*.suo
+*.userprefs
+
+# Archivos de Visual Studio
+.vs/
+*.csproj.user
+*.pubxml
+*.pubxml.user
+
+# Archivos de compilación
+*.dll
+*.exe
+*.pdb
+*.cache
+
+# Logs y bases de datos
+*.log
+*.sqlite
+
+# Archivos de configuración de entorno
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+
+# Carpetas de dependencias
+packages/
+node_modules/
+
+# Archivos temporales
+[Tt]emp/
+[Tt]mp/
+
+# Archivos de publicación y despliegue
+publish/
+.publish/
+**/Properties/PublishProfiles/
+
+# Otros archivos y carpetas
+.DS_Store
+Thumbs.db
